@@ -1,0 +1,115 @@
+/* ====== STYLE LOGIN ====== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0e0e0e;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    background: #1a1a1a;
+    margin: 100px auto;
+    border-radius: 12px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    background: cyan;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.notif {
+    background: rgb(255,60,60);
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.hidden { 
+    display: none; 
+}
+
+
+
+/* ====== DASHBOARD STYLE BARU ====== */
+
+.judul-dashboard {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 26px;
+}
+
+/* Kotak tempat menulis */
+.box-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.input-box {
+    width: 100%;
+    height: 180px;
+    background: #1f1f1f;
+    color: white;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    padding: 12px;
+    resize: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Link sosial media */
+.sosmed {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.sosmed a {
+    color: cyan;
+    text-decoration: none;
+    margin: 0 6px;
+    font-weight: bold;
+}
+
+.sosmed a:hover {
+    text-decoration: underline;
+}
+
+/* Tombol logout kecil */
+.logout-wrap {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.logout-btn {
+    padding: 6px 14px;
+    background: #ff4c4c;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logout-btn:hover {
+    background: #e63b3b;
+}
+
